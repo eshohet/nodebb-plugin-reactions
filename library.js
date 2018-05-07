@@ -7,7 +7,7 @@ var SocketPlugins = module.parent.require('./socket.io/plugins');
 var websockets = module.parent.require('./socket.io/index');
 var async = require('async');
 var emojiParser = require('nodebb-plugin-emoji/build/lib/parse');
-var emojiTable = require('nodebb-plugin-emoji/build/emoji/table.json');
+var emojiTable = require('./emoji/table');
 var reactions = {};
 
 function parse(name) {

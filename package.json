@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-reactions",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "nbbpm": {
     "compatibility": "^1.4.0"
   },
@@ -29,10 +29,8 @@
     }
   ],
   "dependencies": {
-    "async": "^2.1.4"
-  },
-  "peerDependencies": {
-    "nodebb-plugin-emoji": "^2.2.0"
+    "async": "^2.1.4",
+    "nodebb-plugin-emoji": "latest"
   },
   "license": "MIT"
 }
